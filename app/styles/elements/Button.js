@@ -1,5 +1,6 @@
-import React, { PropTypes } from 'react'
-import { TouchableOpacity, Text } from 'react-native'
+import React from 'react'
+import { View, Text } from 'react-native'
+import PropTypes from 'prop-types';
 import styles from './setting/ButtonStyles'
 
 export default class Button extends React.Component {
@@ -9,11 +10,11 @@ export default class Button extends React.Component {
     styles: PropTypes.object
   }
 
-  render () {
+  render() {
     return (
-      <TouchableOpacity style={[styles.button, this.props.styles]} onPress={this.props.onPress}>
+      <View style={[styles.button, this.props.styles]} onPress={this.props.onPress}>
         <Text style={styles.buttonText}>{this.props.text}</Text>
-      </TouchableOpacity>
+      </View>
     )
   }
 }

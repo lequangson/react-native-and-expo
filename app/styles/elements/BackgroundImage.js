@@ -1,5 +1,6 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { Image } from 'react-native';
+import PropTypes from 'prop-types';
 import styles from './setting/BackgroundImageStyles'
 
 export default class BackgroundImage extends Component {

@@ -8,7 +8,8 @@ const primitiveColor = {
   colorRed: '#ff0000',
   colorOrange: '#f15c00',
   colorWhite: '#fff',
-  colorBlue: '#0073bb'
+  colorBlue: '#0073bb',
+  transparent: 'rgba(0,0,0,0)'
 }
 
 const defaultColor = {

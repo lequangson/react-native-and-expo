@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Font } from 'expo'
-import { StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import Login from './app/Login'
 
 export default class App extends React.Component {
@@ -13,7 +13,9 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <Login />
+      <View style={styles.container}>
+        <Login />
+      </View>
     )
   }
 }
@@ -21,10 +23,6 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'row',
-    // backgroundColor: colors.defaultColor.color_text,
-    alignItems: 'center',
-    // fontFamily: 'open-sans-bold',
-    justifyContent: 'space-around'
+    backgroundColor: 'transparent'
   }
 });
