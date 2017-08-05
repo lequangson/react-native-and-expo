@@ -1,6 +1,7 @@
 {
   "name": "react-native-frontend",
   "version": "0.1.0",
+  "athor": "lequangson",
   "private": true,
   "devDependencies": {
     "eslint-plugin-react": "^7.1.0",
